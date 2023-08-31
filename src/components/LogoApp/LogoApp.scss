@@ -1,0 +1,15 @@
+.logo {
+  font-weight: 700;
+  color: rgb(182, 27, 27);
+  font-size: 3rem;
+
+  &__txtFirst {
+    color: rgb(2, 77, 2);
+  }
+  p {
+    display: inline-block;
+    color: white;
+    transform-origin: bottom left;
+    transform: rotate(10deg);
+  }
+}
