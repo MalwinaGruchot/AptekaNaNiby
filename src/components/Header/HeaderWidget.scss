@@ -1,0 +1,16 @@
+.header {
+  &__widget {
+    padding: 1rem;
+    background-color: rgb(229, 255, 227);
+    font-size: 2rem;
+    .fa-solid {
+      cursor: pointer;
+    }
+  }
+  &__link {
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}
