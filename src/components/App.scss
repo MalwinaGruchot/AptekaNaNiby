@@ -1,0 +1,52 @@
+@use "sass:map";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+//zmianne
+$color-text: black;
+$font-Open_Sans: "Open Sans", sans-serif;
+$font-Roboto: "Roboto", sans-serif; //reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//mixins
+
+$breakpoints: (
+  xsmall: "min-width: 460px",
+  small: "min-width: 750px",
+  medium: "min-width: 1024px",
+  large: "min-width: 1200px",
+);
+
+// definicja mixina do zapytań o media
+@mixin media($breakpoint) {
+  $size: map-get($breakpoints, $breakpoint);
+
+  @if ($size) {
+    @media (#{$size}) {
+      @content;
+    }
+  } @else {
+    // @error '"#{$breakpoint}" - błąd, nie wiem co to';
+  }
+}
+
+//style dotyczace strony
+html {
+  font-size: 10px;
+  color: $color-text;
+  font-family: $font-Open_Sans;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  @include media(medium) {
+    max-width: 1352px;
+    margin: 0 auto;
+  }
+}
