@@ -1,11 +1,16 @@
 .banner {
   margin: 2rem 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   &__wrapper {
     width: 100%;
     background-position: center;
     background-size: cover;
-    position: relative;
+    // position: relative;
   }
   &__img {
     width: 100%;
@@ -14,24 +19,27 @@
   }
   .fa-solid {
     color: white;
+    background-color: rgba(5, 200, 2, 0.44);
     font-size: 4rem;
-    position: absolute;
+    // position: absolute;
     padding: 1rem;
     border-radius: 0.5rem;
     transition: 0.2s;
     cursor: pointer;
     &:hover {
-      background-color: rgba(5, 200, 2, 0.678);
+      background-color: rgba(5, 200, 2);
     }
   }
-  .fa-chevron-left {
-    top: 50%;
-    left: 0;
-    transform: translate(25%, -50%);
-  }
-  .fa-chevron-right {
-    top: 50%;
-    right: 0;
-    transform: translate(-25%, -50%);
+  &__dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid rgba(5, 200, 2);
+    display: inline-block;
+    margin: 0.5rem;
+    cursor: pointer;
+    &.active {
+      background-color: rgba(5, 200, 2);
+    }
   }
 }

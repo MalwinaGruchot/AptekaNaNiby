@@ -27,22 +27,34 @@ export default function SectionBanner() {
 
   return (
     <section className="banner">
-      <div className="container header__container">
+      <div className="container">
         <div className="banner__wrapper">
           <img className="banner__img" src={img[counter]}></img>
-          <i
-            onClick={() => {
-              changeCounter(-1);
-            }}
-            className="fa-solid fa-chevron-left"
-          ></i>
-          <i
-            onClick={() => {
-              changeCounter(+1);
-            }}
-            className="fa-solid fa-chevron-right"
-          ></i>
         </div>
+      </div>
+      <div className="container banner__container">
+        <i
+          onClick={() => {
+            changeCounter(-1);
+          }}
+          className="fa-solid fa-chevron-left"
+        ></i>
+        <div>
+          {img.map((img, i) => (
+            <div
+              key={img}
+              name={img}
+              className={i === counter ? "banner__dot active" : "banner__dot"}
+              onClick={() => setCounter(i)}
+            ></div>
+          ))}
+        </div>
+        <i
+          onClick={() => {
+            changeCounter(+1);
+          }}
+          className="fa-solid fa-chevron-right"
+        ></i>
       </div>
     </section>
   );
