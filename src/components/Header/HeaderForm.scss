@@ -1,3 +1,6 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
 .header {
   &__form {
     position: relative;
@@ -9,7 +12,7 @@
       right: 0;
       transform: translate(-50%, 50%);
       font-size: 2rem;
-      color: rgb(5, 200, 2);
+      color: $color-primary;
     }
   }
 

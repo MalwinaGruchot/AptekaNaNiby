@@ -1,9 +1,17 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.container {
+  @include container;
+}
+
 .banner {
   margin: 2rem 0;
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include container;
   }
 
   &__wrapper {

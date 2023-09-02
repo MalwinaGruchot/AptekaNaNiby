@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "../../styles/fonts";
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
 .header {
   &__menu {
-    background-color: rgb(229, 255, 227);
+    background-color: $color-secendary;
   }
   &__nav {
-    color: black;
+    color: $color-text;
   }
 
   &__navList {
@@ -19,7 +21,7 @@
 
   &__navLink {
     text-decoration: none;
-    color: black;
+    color: $color-text;
     font-size: 2rem;
     display: block;
     padding-top: 1rem;
@@ -29,7 +31,7 @@
     transition: 0.2s;
 
     &.active {
-      border-bottom: 3px solid rgb(5, 200, 2);
+      border-bottom: 3px solid $color-primary;
       &:hover {
         transform: translateY(0);
       }
