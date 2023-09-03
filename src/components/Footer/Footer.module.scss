@@ -1,0 +1,68 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.footer {
+  background-color: $color-secendary;
+  padding-bottom: 3rem;
+}
+
+.container {
+  @include container;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  font-size: 1.5rem;
+  padding: 0.3rem 1.5rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.baner {
+  height: 50vh;
+  background-image: url(../../assets/banerdolny.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+}
+
+.titleBaner {
+  color: rgb(242, 255, 0);
+  font-size: 5rem;
+  @include container;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
+.titleWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background {
+  background-color: brown;
+  border-radius: 0 100% 0 0;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.icon {
+  font-size: 6rem;
+  color: white;
+  padding: 0 1rem;
+}
