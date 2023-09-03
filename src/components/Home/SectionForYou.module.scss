@@ -1,6 +1,10 @@
 @import "../../styles/mixins";
 @import "../../styles/variables";
 
+.forYou {
+  background-color: $color-section;
+}
+
 .container {
   @include container;
 }

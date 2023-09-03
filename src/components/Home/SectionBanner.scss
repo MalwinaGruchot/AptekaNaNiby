@@ -6,7 +6,8 @@
 }
 
 .banner {
-  margin: 2rem 0;
+  padding: 2rem 0;
+  background-color: $color-section;
   &__container {
     display: flex;
     justify-content: space-between;
@@ -18,7 +19,6 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    // position: relative;
   }
   &__img {
     width: 100%;
@@ -29,7 +29,6 @@
     color: white;
     background-color: rgba(5, 200, 2, 0.44);
     font-size: 4rem;
-    // position: absolute;
     padding: 1rem;
     border-radius: 0.5rem;
     transition: 0.2s;
