@@ -1,7 +1,6 @@
 @import "../../styles/mixins";
 @import "../../styles/variables";
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "../../styles/fonts";
 
 .footer {
   background-color: $color-secendary;
@@ -17,7 +16,14 @@
 
 .item {
   font-size: 1.5rem;
-  padding: 0.3rem 1.5rem;
+  padding: 0.3rem 0;
+  align-items: center;
+}
+
+.title {
+  color: $color-primary;
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .list {
@@ -37,9 +43,10 @@
 .titleBaner {
   color: rgb(242, 255, 0);
   font-size: 5rem;
+  letter-spacing: 1rem;
   @include container;
   text-align: center;
-  font-family: "Roboto Slab", serif;
+  font-family: $font-Roboto-Slab;
   font-weight: 500;
 }
 
@@ -47,7 +54,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-70%, -35%);
   display: flex;
   flex-direction: column;
   justify-content: center;

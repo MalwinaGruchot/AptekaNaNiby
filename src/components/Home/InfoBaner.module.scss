@@ -1,12 +1,38 @@
-.wrapper {
+@import "../../styles/fonts";
+.baner {
+  height: 40vh;
+  width: 22%;
+  // background-image: url(../../assets/woman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
-.title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  text-transform: uppercase;
+.titleBaner {
+  color: white;
   font-size: 2rem;
-  padding: 3rem 1.5rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  font-family: $font-Roboto-Slab;
+  font-weight: 400;
+}
+
+.titleWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgb(255, 0, 115);
+  border-radius: 0 70% 0 0;
+  width: 100%;
+  height: 50%;
 }
