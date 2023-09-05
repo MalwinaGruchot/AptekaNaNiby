@@ -1,10 +1,12 @@
 @import "../../styles/fonts";
+
 .baner {
   height: 40vh;
   width: 22%;
-  // background-image: url(../../assets/woman.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
