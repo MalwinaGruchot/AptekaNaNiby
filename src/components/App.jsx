@@ -2,6 +2,7 @@ import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RouteWrapper from "./RouteWrapper/RouteWrapper";
 import Home from "./Home/Home";
+import ProductCard from "./ProductCard/ProductCard";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<RouteWrapper />}>
           <Route path="/" element={<Home />} />
+          <Route path="/forYou/:product" element={<ProductCard />} />
           <Route path="/promocje" element={<div>Promocje</div>} />
           <Route path="/pielęgnacja" element={<div>pielęgnacja</div>} />
           <Route path="/srodkiopatrunkowe" element={<div>opatrunkowe</div>} />
