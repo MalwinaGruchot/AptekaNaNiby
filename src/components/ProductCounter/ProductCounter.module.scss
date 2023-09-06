@@ -1,0 +1,32 @@
+@import "../../styles/fonts";
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.wrapper {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+
+.counter {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.button {
+  background-color: $color-secendary;
+  transition: 0.2s;
+  font-size: 2rem;
+  flex-grow: 1;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
