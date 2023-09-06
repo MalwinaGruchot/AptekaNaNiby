@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "name": "Mleko modyfikowane",
+      "quantity": 10,
+      "price": 10.0,
+      "id": 1,
+      "category": "forYou",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/mleko.jpg"
+    },
+    {
+      "name": "Krem do twarzy",
+      "quantity": 10,
+      "price": 20.0,
+      "id": 2,
+      "category": "forYou",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/krem.jpg"
+    },
+    {
+      "name": "Balsam do ust",
+      "quantity": 15,
+      "price": 15.0,
+      "id": 3,
+      "category": "forYou",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/balsamr.jpg"
+    }
+  ]
+}
