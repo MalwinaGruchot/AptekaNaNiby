@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ProductCounter from "../ProductCounter/ProductCounter";
 import ButtonBuy from "../ButtonBuy/ButtonBuy";
-import { getProdukts } from "../../api/getProdukts";
+import { getProdukt } from "../../api/getProdukt";
 
 export default function ProductCard() {
   const { id } = useParams();
   const [productItem, setProductItem] = useState("");
 
   useEffect(() => {
-    getProdukts(`forYou/${id}`, setProductItem);
+    getProdukt(id, setProductItem);
   }, []);
 
   if (!productItem) return <h3>Wczytywanie...</h3>;

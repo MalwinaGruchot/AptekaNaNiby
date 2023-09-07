@@ -5,22 +5,22 @@ import ProductLink from "../ProductLink/ProductLink";
 import { useEffect, useState } from "react";
 import { getProdukts } from "../../api/getProdukts";
 
-export default function SectionForYou() {
+export default function SectionWeeksProdukts() {
   const [productsList, setProductsList] = useState([]);
 
   useEffect(() => {
-    getProdukts("forYou", setProductsList);
+    getProdukts("weeksProducts", setProductsList);
   }, []);
 
   return (
     <section className={styles.forYou}>
       <div className={styles.container}>
-        <h2 className={styles.title}>Wybrane dla Ciebie</h2>
+        <h2 className={styles.title}>Produkty tygodnia</h2>
         <div className={styles.wrapper}>
           <InfoBaner
-            src={"src/assets/woman.jpg"}
-            title={["Wybrane", "dla", "Ciebie"]}
-            backgroundColor={" rgb(255, 0, 115)"}
+            src={"../../src/assets/tydzien.jpg"}
+            title={["Produkty", "tygodnia"]}
+            backgroundColor={"darkorange"}
           />
           {productsList.map((product) => (
             <NavLink
