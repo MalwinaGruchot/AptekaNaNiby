@@ -5,7 +5,7 @@
       "quantity": 10,
       "price": 10.0,
       "id": 1,
-      "category": "forYou",
+      "category": ["forYou"],
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
@@ -16,7 +16,7 @@
       "quantity": 10,
       "price": 20.0,
       "id": 2,
-      "category": "forYou",
+      "category": ["forYou"],
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
@@ -27,11 +27,77 @@
       "quantity": 15,
       "price": 15.0,
       "id": 3,
-      "category": "forYou",
+      "category": ["forYou"],
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "url": "../../src/assets/products/balsamr.jpg"
+    },
+    {
+      "name": "Balsam do ciała",
+      "quantity": 10,
+      "price": 30.0,
+      "id": 4,
+      "category": ["weeksProducts"],
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/balsamdociala.jpg"
+    },
+    {
+      "name": "Bandaż",
+      "quantity": 10,
+      "price": 5.0,
+      "id": 5,
+      "category": ["weeksProducts"],
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/bandaz.jpg"
+    },
+    {
+      "name": "Nebulizator dla dzieci",
+      "quantity": 15,
+      "price": 15.0,
+      "id": 6,
+      "category": ["weeksProducts"],
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/inhalator.jpg"
+    },
+    {
+      "name": "Mydło do rąk",
+      "quantity": 11,
+      "price": 7.0,
+      "id": 7,
+      "category": ["care"],
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/mydlo.jpg"
+    },
+    {
+      "name": "Odżywka do włosów",
+      "quantity": 10,
+      "price": 5.0,
+      "id": 8,
+      "category": ["care"],
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/odzywka.jpg"
+    },
+    {
+      "name": "Szampon do włosów",
+      "quantity": 15,
+      "price": 19.0,
+      "id": 9,
+      "category": ["care"],
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "composition": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+      "url": "../../src/assets/products/szampon.jpg"
     }
   ]
 }
