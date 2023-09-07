@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<RouteWrapper />}>
           <Route path="/" element={<Home />} />
-          <Route path="/forYou/:id" element={<ProductCard />} />
+          <Route path="/products/:id" element={<ProductCard />} />
           <Route path="/promocje" element={<div>Promocje</div>} />
           <Route path="/pielęgnacja" element={<div>pielęgnacja</div>} />
           <Route path="/srodkiopatrunkowe" element={<div>opatrunkowe</div>} />
