@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<RouteWrapper />}>
           <Route path="/" element={<Home />} />
           <Route path="/products/:id" element={<ProductCard />} />
-          <Route path="/promocje" element={<div>Promocje</div>} />
+          <Route path="/article/:id" element={<p>artykuł</p>} />
           <Route path="/pielęgnacja" element={<div>pielęgnacja</div>} />
           <Route path="/srodkiopatrunkowe" element={<div>opatrunkowe</div>} />
           <Route path="/witaminy" element={<div>witaminy</div>} />
