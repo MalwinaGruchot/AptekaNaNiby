@@ -99,5 +99,40 @@
       "use": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
       "url": "../../src/assets/products/szampon.jpg"
     }
+  ],
+  "articles": [
+    {
+      "name": "Ranking kremów do twarzy",
+      "id": 10,
+      "category": ["articles"],
+      "article": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis."
+      ],
+      "url": "../../src/assets/kremart.jpg"
+    },
+    {
+      "name": "Owoce dla zdrowia",
+      "id": 11,
+      "category": ["articles"],
+      "article": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis."
+      ],
+      "url": "../../src/assets/smoothie.jpg"
+    },
+    {
+      "name": "Witamina D",
+      "id": 12,
+      "category": ["articles"],
+      "article": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nesciunt eum optio aliquid iste facilis, soluta accusamus, error, expedita consectetur ipsum cupiditate id praesentium. Commodi expedita deleniti minus facilis debitis."
+      ],
+      "url": "../../src/assets/witd2.jpg"
+    }
   ]
 }
