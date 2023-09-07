@@ -1,7 +1,7 @@
 import { API_URL } from "./constants";
 
-export const getProdukts = (param, setProductsList) => {
-  fetch(API_URL + "/products")
+export const getProdukt = (id, setProductsList) => {
+  fetch(API_URL + "/products/" + id)
     .then((res) => {
       if (!res.ok) {
         throw new Error(res.status);
@@ -9,11 +9,8 @@ export const getProdukts = (param, setProductsList) => {
       return res.json();
     })
     .then((data) => {
-      const newData = data.filter((product) =>
-        product.category.includes(param)
-      );
       if (typeof setProductsList === "function") {
-        setProductsList(newData);
+        setProductsList(data);
       }
     })
     .catch((err) => console.log(err));
