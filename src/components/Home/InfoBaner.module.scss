@@ -1,9 +1,7 @@
 @import "../../styles/fonts";
 
 .baner {
-  height: 40vh;
   width: 22%;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,6 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 1.5rem;
 }
 
 .background {
