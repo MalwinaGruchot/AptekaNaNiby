@@ -24,7 +24,7 @@ export default function SectionArticles() {
             <NavLink
               className={styles.navLink}
               key={article.id}
-              to={`/${article.id}`}
+              to={`/article/${article.id}`}
               style={{ height: 370 }}
             >
               <ArticleLink src={article.url} title={article.name} />

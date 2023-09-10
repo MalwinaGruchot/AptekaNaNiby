@@ -1,0 +1,30 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.article {
+  background-color: $color-section;
+  padding: 4rem;
+}
+
+.container {
+  @include container;
+}
+
+.title {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  font-family: $font-Roboto;
+}
+.imgWrapp {
+  float: left;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+.text {
+  padding: 0 2rem 2rem 0;
+  font-size: 2rem;
+}
