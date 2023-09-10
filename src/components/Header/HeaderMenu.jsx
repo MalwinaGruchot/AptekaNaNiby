@@ -5,7 +5,6 @@ const links = [
   { title: "Promocje", url: "promocje" },
   { title: "Pielęgnacja", url: "pielęgnacja" },
   { title: "Środki opatrunkowe", url: "srodkiopatrunkowe" },
-  { title: "Witaminy", url: "witaminy" },
   { title: "Sprzęt medyczny", url: "sprzętmedyczny" },
 ];
 
