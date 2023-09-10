@@ -9,7 +9,7 @@ export default function PageCategory({ category }) {
 
   useEffect(() => {
     getProdukts(category, setProducts);
-  }, []);
+  }, [category]);
 
   if (!products.length) {
     return <p>Wczytywanie...</p>;
@@ -24,7 +24,7 @@ export default function PageCategory({ category }) {
             <NavLink
               className={styles.navLink}
               key={product.id}
-              to={`/pielęgnacja/${product.id}`}
+              to={`/products/${product.id}`}
             >
               <ProductLink product={product} />
             </NavLink>
