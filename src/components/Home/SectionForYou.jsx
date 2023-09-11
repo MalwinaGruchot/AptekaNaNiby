@@ -13,7 +13,10 @@ export default function SectionForYou() {
   }, []);
 
   return (
-    <section className={styles.forYou}>
+    <section
+      className={styles.forYou}
+      style={{ backgroundColor: "rgb(229, 255, 227)" }}
+    >
       <div className={styles.container}>
         <h2 className={styles.title}>Wybrane dla Ciebie</h2>
         <div className={styles.wrapper}>

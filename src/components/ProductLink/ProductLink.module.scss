@@ -5,6 +5,7 @@
 .product {
   border: 2px solid $color-border;
   // height: 40vh;
+  background-color: $color-section;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
