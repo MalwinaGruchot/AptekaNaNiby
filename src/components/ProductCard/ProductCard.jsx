@@ -30,7 +30,7 @@ export default function ProductCard() {
           <h3 className={style.price}>{productItem.price.toFixed(2)} zł.</h3>
           <div className={style.wrapperBattons}>
             <ProductCounter quantity={productItem.quantity} />
-            <ButtonBuy className={style.button} />
+            <ButtonBuy product={productItem} className={style.button} />
           </div>
           <h4 className={style.subtitle}>Opis:</h4>
           <p className={style.text}>{productItem.description}</p>

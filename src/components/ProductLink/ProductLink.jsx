@@ -14,7 +14,7 @@ export default function ProductLink({ product }) {
       <h3 className={style.title}>{product.name}</h3>
       <h3 className={style.price}>{product.price.toFixed(2)} zł.</h3>
       <ProductCounter quantity={product.quantity} />
-      <ButtonBuy />
+      <ButtonBuy product={product} />
     </div>
   );
 }
