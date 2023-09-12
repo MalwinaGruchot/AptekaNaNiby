@@ -3,6 +3,7 @@ import LogoApp from "../LogoApp/LogoApp";
 import HeaderWidget from "./HeaderWidget";
 import HeaderForm from "./HeaderForm";
 import HeaderMenu from "./HeaderMenu";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -16,9 +17,9 @@ export default function Header() {
               <HeaderForm />
             </div>
 
-            <button className="header__btnIcon">
+            <NavLink to="/basket" className="header__btnIcon">
               <i className="fa-solid fa-cart-shopping"></i>Koszyk
-            </button>
+            </NavLink>
           </div>
         </div>
         <HeaderMenu />

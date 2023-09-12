@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import ProductCard from "./ProductCard/ProductCard";
 import PageCategory from "./PageCategory/PageCategory";
 import Article from "./Article/Article";
+import PageBasket from "./PageBasket/PageBasket";
 import AppProvider from "../providers/AppProvider";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<RouteWrapper />}>
             <Route path="/" element={<Home />} />
+            <Route path="/basket" element={<PageBasket />} />
             <Route path="/products/:id" element={<ProductCard />} />
             <Route path="/article/:id" element={<Article />} />
             <Route

@@ -1,0 +1,26 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.basket {
+  background-color: $color-section;
+  min-height: 100vh;
+}
+
+.container {
+  @include container;
+  padding: 2rem 0;
+}
+.title {
+  padding: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.wrapperProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.navlink {
+  text-decoration: none;
+}
