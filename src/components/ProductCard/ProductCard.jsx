@@ -8,6 +8,22 @@ import { getProdukt } from "../../api/getProdukt";
 export default function ProductCard() {
   const { id } = useParams();
   const [productItem, setProductItem] = useState("");
+  const [counter, setCounter] = useState(1);
+  const [removeDisabled, setRemoveDisbled] = useState(false);
+  const [addDisabled, setAddDisbled] = useState(false);
+
+  useEffect(() => {
+    if (productItem.quantity <= 0 || counter === 0) {
+      setRemoveDisbled(true);
+    } else {
+      setRemoveDisbled(false);
+    }
+    if (productItem.quantity <= counter) {
+      setAddDisbled(true);
+    } else {
+      setAddDisbled(false);
+    }
+  }, [counter, productItem.quantity]);
 
   useEffect(() => {
     getProdukt(id, setProductItem);
@@ -29,8 +45,19 @@ export default function ProductCard() {
           <h3 className={style.title}>{productItem.name}</h3>
           <h3 className={style.price}>{productItem.price.toFixed(2)} zł.</h3>
           <div className={style.wrapperBattons}>
-            <ProductCounter quantity={productItem.quantity} />
-            <ButtonBuy product={productItem} className={style.button} />
+            <ProductCounter
+              addDisabled={addDisabled}
+              removeDisabled={removeDisabled}
+              counter={counter}
+              quantity={productItem.quantity}
+              setCounter={setCounter}
+            />
+            <ButtonBuy
+              removeDisabled={removeDisabled}
+              product={productItem}
+              className={style.button}
+              counter={counter}
+            />
           </div>
           <h4 className={style.subtitle}>Opis:</h4>
           <p className={style.text}>{productItem.description}</p>
