@@ -1,17 +1,19 @@
 /* eslint-disable react/prop-types */
 import style from "./ProductLinkBasket.module.scss";
-import { useState, useEffect } from "react";
-
+import ButtonDelete from "../ButtonDelete/ButtonDelete";
+import { useState, useEffect, useContext } from "react";
 import ProductCounter from "../ProductCounter/ProductCounter";
+import { AppContext } from "../../providers/AppProvider";
 
 // eslint-disable-next-line react/prop-types
 export default function ProductLinkBasket({ product }) {
   const [order, setOrder] = useState(product.order);
   const [removeDisabled, setRemoveDisbled] = useState(false);
   const [addDisabled, setAddDisbled] = useState(false);
+  const { setBasket, basket } = useContext(AppContext);
 
   useEffect(() => {
-    if (product.quantity <= 0 || order <= 1) {
+    if (basket.quantity <= 0 || order <= 1) {
       setRemoveDisbled(true);
     } else {
       setRemoveDisbled(false);
@@ -21,7 +23,17 @@ export default function ProductLinkBasket({ product }) {
     } else {
       setAddDisbled(false);
     }
-  }, [order, product.quantity]);
+  }, [order, product.quantity, basket.quantity]);
+
+  useEffect(() => {
+    setBasket((prev) =>
+      prev.map((el) =>
+        el.id === product.id
+          ? { ...el, order, quantity: product.quantity - (order - el.order) }
+          : el
+      )
+    );
+  }, [order, product.id, product.quantity]);
 
   return (
     <div className={style.product}>
@@ -41,6 +53,7 @@ export default function ProductLinkBasket({ product }) {
           setCounter={setOrder}
           quantity={product.quantity}
         />
+        <ButtonDelete id={product.id} />
       </div>
     </div>
   );

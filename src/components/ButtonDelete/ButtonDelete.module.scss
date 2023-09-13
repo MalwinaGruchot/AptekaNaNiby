@@ -1,0 +1,14 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.button {
+  background-color: $color-secendary;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}
