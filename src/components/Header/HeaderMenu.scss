@@ -5,6 +5,7 @@
 .header {
   &__menu {
     background-color: $color-secendary;
+    box-shadow: 0px 2px 5px grey;
   }
   &__nav {
     color: $color-text;
