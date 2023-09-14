@@ -1,0 +1,20 @@
+@import "../../styles/fonts";
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.button {
+  background-color: $color-primary;
+  width: 100%;
+  align-self: flex-start;
+  font-size: 2rem;
+  padding: 1rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-family: $font-Roboto;
+  color: white;
+  border-color: $color-border;
+  border-radius: 0.5rem;
+  &:hover {
+    border-color: $color-primary;
+  }
+}
