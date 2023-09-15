@@ -7,6 +7,7 @@ import PageCategory from "./PageCategory/PageCategory";
 import Article from "./Article/Article";
 import PageBasket from "./PageBasket/PageBasket";
 import AppProvider from "../providers/AppProvider";
+import PageSerch from "./PageSerch/PageSerch";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
               path="/sprzętmedyczny"
               element={<PageCategory category={"Sprzęt medyczny"} />}
             />
+            <Route path="/wyszukaj" element={<PageSerch />} />
           </Route>
         </Routes>
       </BrowserRouter>

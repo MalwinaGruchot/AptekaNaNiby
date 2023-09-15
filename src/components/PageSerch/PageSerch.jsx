@@ -1,25 +1,26 @@
-import { useEffect, useState } from "react";
-import styles from "./PageCategory.module.scss";
-import { getProdukts } from "../../api/getProdukts";
-import ProductLink from "../ProductLink/ProductLink";
+import { useContext, useEffect, useState } from "react";
+import styles from "./PageSerch.module.scss";
 import { NavLink } from "react-router-dom";
+import { serchProdukts } from "../../api/serchProducts";
+import ProductLink from "../ProductLink/ProductLink";
+import { AppContext } from "../../providers/AppProvider";
 
-// eslint-disable-next-line react/prop-types
-export default function PageCategory({ category }) {
-  const [products, setProducts] = useState([]);
+export default function PageSerch() {
+  const [products, setProducts] = useState();
+  const { param } = useContext(AppContext);
 
   useEffect(() => {
-    getProdukts(category, setProducts);
-  }, [category]);
+    serchProdukts(param, setProducts);
+  }, [param]);
 
-  if (!products.length) {
+  if (!products) {
     return <p>Wczytywanie...</p>;
   }
 
   return (
     <div className={styles.section}>
       <div className={styles.container}>
-        <h3 className={styles.title}>{category}</h3>
+        <h3 className={styles.title}>Znalezione dla {param}:</h3>
         <div className={styles.wrapper}>
           {products.map((product) => (
             <NavLink

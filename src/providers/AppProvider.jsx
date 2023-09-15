@@ -6,6 +6,7 @@ export const AppContext = createContext();
 export default function AppProvider({ children }) {
   const [basket, setBasket] = useState([]);
   const [price, setPrice] = useState(0);
+  const [param, setParam] = useState("");
 
   useEffect(() => {
     const sumPrice = basket.reduce((acc, el) => {
@@ -15,7 +16,7 @@ export default function AppProvider({ children }) {
   }, [basket]);
 
   return (
-    <AppContext.Provider value={{ basket, setBasket, price }}>
+    <AppContext.Provider value={{ basket, setBasket, price, setParam, param }}>
       {children}
     </AppContext.Provider>
   );

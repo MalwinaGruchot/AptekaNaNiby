@@ -4,6 +4,7 @@ import { AppContext } from "../../providers/AppProvider";
 import ProductLinkBasket from "../ProductLinkBasket/ProductLinkBasket";
 import { NavLink } from "react-router-dom";
 import ButtonNext from "../ButtonNext/ButtonNext";
+import Form from "../Form/Form";
 
 export default function PageBasket() {
   const { basket, price } = useContext(AppContext);
@@ -41,8 +42,8 @@ export default function PageBasket() {
             <ButtonNext className={style.button} click={setIsFormActive} />
           </section>
         </div>
+        {isFormActive ? <Form /> : null}
       </div>
-      {isFormActive ? <form>form,form,form</form> : null}
     </section>
   );
 }

@@ -19,9 +19,10 @@
   display: flex;
   gap: 2rem;
   justify-content: space-between;
+  padding-top: 4rem;
 }
 .priceSection {
-  min-width: 25%;
+  width: 30%;
   height: 20rem;
   background-color: $color-secendary;
   display: flex;
@@ -31,6 +32,7 @@
 }
 
 .wrapperProduct {
+  min-width: 64rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -46,6 +48,7 @@
 .price {
   color: $color-primary;
   font-size: 3rem;
+  text-align: left;
 }
 
 .subtitle {
@@ -62,7 +65,7 @@
   text-transform: uppercase;
   font-family: $font-Roboto;
   color: white;
-  border-color: $color-border;
+  border: 1px solid $color-border;
   border-radius: 0.5rem;
   &:hover {
     border-color: $color-primary;
