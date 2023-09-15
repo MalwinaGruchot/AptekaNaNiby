@@ -1,0 +1,22 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.container {
+  display: flex;
+  @include container;
+}
+.widget {
+  padding: 1rem;
+  background-color: $color-secendary;
+  font-size: 2rem;
+}
+.fa-solid {
+  cursor: pointer;
+}
+
+.link {
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  color: $color-text;
+}

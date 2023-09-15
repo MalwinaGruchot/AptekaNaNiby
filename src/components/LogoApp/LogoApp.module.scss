@@ -1,0 +1,25 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.logo {
+  color: rgb(182, 27, 27);
+  font-weight: 700;
+  font-size: 2.5rem;
+  @include media(medium) {
+    font-size: 3rem;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.txtFirst {
+  color: rgb(2, 77, 2);
+}
+.txtSecend {
+  display: inline-block;
+  color: white;
+  transform-origin: bottom left;
+  transform: rotate(10deg);
+}

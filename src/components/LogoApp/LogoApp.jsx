@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
-import "./LogoApp.scss";
+import styles from "./LogoApp.module.scss";
 
 export default function LogoApp() {
   return (
-    <NavLink className="logo__link" to={`/`}>
-      <div className="logo">
-        Apteka<span className="logo__txtFirst">Na</span>
-        <p className="logo__txtSecend">Niby</p>
+    <NavLink className={styles.link} to={`/`}>
+      <div className={styles.logo}>
+        Apteka<span className={styles.txtFirst}>Na</span>
+        <p className={styles.txtSecend}>Niby</p>
       </div>
     </NavLink>
   );

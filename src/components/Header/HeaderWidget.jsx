@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import "./HeaderWidget.scss";
+import styles from "./HeaderWidget.module.scss";
 import { useState } from "react";
 
 export default function HeaderWidget() {
   const [style, setStyle] = useState({});
 
   return (
-    <div style={style} className="header__widget">
-      <div className="container header__container">
-        <Link to="/promocje" className="header__link">
+    <div style={style} className={styles.widget}>
+      <div className={styles.container}>
+        <Link to="/promocje" className={styles.link}>
           Rabaty do -25%
         </Link>
         <i
