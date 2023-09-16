@@ -12,7 +12,12 @@
   @include container;
   padding-top: 3rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+
+  @include media(small) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .item {
@@ -23,8 +28,19 @@
 
 .title {
   color: $color-primary;
-  font-size: 2.5rem;
-  padding-bottom: 1.5rem;
+  font-size: rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+
+  @include media(small) {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  @include media(medium) {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 .list {
@@ -44,12 +60,21 @@
 
 .titleBaner {
   color: rgb(242, 255, 0);
-  font-size: 5rem;
-  letter-spacing: 1rem;
   @include container;
   text-align: center;
   font-family: $font-Roboto-Slab;
   font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+
+  @include media(small) {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+  }
+  @include media(medium) {
+    font-size: 5rem;
+    letter-spacing: 1rem;
+  }
 }
 
 .titleWrapper {
@@ -65,9 +90,13 @@
 .background {
   background-color: brown;
   border-radius: 0 100% 0 0;
-  width: 50%;
+  width: 80%;
   height: 100%;
   position: relative;
+  @include media(small) {
+    width: 50%;
+    height: 100%;
+  }
 }
 
 .icon {

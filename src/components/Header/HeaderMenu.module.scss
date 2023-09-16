@@ -5,6 +5,18 @@
 .menu {
   background-color: $color-secendary;
   box-shadow: 0px 2px 5px grey;
+  display: none;
+  @include media(medium) {
+    display: block;
+  }
+}
+
+.menuMobile {
+  background-color: $color-secendary;
+  box-shadow: 0px 2px 5px grey;
+  @include media(medium) {
+    display: none;
+  }
 }
 .container {
   @include container;
@@ -13,10 +25,38 @@
 .nav {
   color: $color-text;
 }
+.mobileBar {
+  padding: 0.5rem;
+  background-color: $color-secendary;
+  @include media(medium) {
+    display: none;
+  }
+}
+.mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapperform {
+  flex-grow: 1;
+  padding-right: 3rem;
+}
+.fabar {
+  font-size: 2.5rem;
+  color: $color-primary;
+  width: 2.5rem;
+  height: 2.5rem;
+}
 
 .navList {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
+
+  @include media(medium) {
+    flex-direction: row;
+  }
 }
 .item {
   padding: 0 5rem 0 0;

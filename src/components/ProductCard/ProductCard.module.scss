@@ -9,19 +9,29 @@
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
-
+  flex-direction: column;
+  @include media(small) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
   @include container;
 }
 
 .column {
-  width: 48%;
+  @include media(small) {
+    width: 48%;
+  }
 }
 
 .img {
-  width: 80%;
+  width: 100%;
   height: auto;
   border: 2px solid $color-border;
+
+  @include media(small) {
+    width: 80%;
+    height: auto;
+  }
 }
 
 .title {

@@ -11,7 +11,18 @@
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  @include media(small) {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+
+  @include media(medium) {
+  }
 }
 
 .title {
@@ -20,6 +31,13 @@
 }
 
 .navLink {
-  width: 22%;
   text-decoration: none;
+
+  @include media(small) {
+    width: 48%;
+  }
+
+  @include media(medium) {
+    width: 22%;
+  }
 }

@@ -4,7 +4,10 @@
 
 .article {
   background-color: $color-section;
-  padding: 4rem;
+  padding-top: 1rem;
+  @include media(small) {
+    padding: 4rem;
+  }
 }
 
 .container {
@@ -12,19 +15,35 @@
 }
 
 .title {
-  font-size: 3rem;
-  padding-bottom: 3rem;
   font-family: $font-Roboto;
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  @include media(small) {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 0;
+  }
 }
 .imgWrapp {
-  float: left;
-  padding-right: 3rem;
-  padding-bottom: 3rem;
   overflow: hidden;
-  border-radius: 10%;
+  @include media(small) {
+    float: left;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    overflow: hidden;
+    border-radius: 10%;
+  }
+}
+.img {
+  width: 100%;
 }
 
 .text {
-  padding: 0 2rem 2rem 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  padding: 0 0 2rem 0;
+  @include media(small) {
+    padding: 0 2rem 2rem 0;
+    font-size: 2rem;
+  }
 }

@@ -17,6 +17,9 @@
 .wrapper {
   display: grid;
   gap: 1rem;
+  @include media(small) {
+    grid-template-columns: 1fr 1fr;
+  }
   @include media(medium) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;

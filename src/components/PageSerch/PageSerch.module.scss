@@ -16,8 +16,16 @@
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @include media(small) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include media(medium) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
 }
 
 .navLink {

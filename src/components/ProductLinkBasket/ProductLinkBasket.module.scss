@@ -4,12 +4,16 @@
 
 .product {
   border: 2px solid $color-border;
-  // height: 40vh;
   background-color: $color-section;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
   padding: 1.5rem;
+  align-items: center;
+  @include media(small) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
   transition: 0.2s;
   &:hover {
     border: 2px solid $color-primary;
