@@ -6,21 +6,32 @@
   flex-grow: 1;
   background-color: $color-secendary;
   padding: 2rem;
-  min-width: 64rem;
+
+  @include media(medium) {
+    min-width: 64rem;
+  }
 }
 
 .wrapperInput {
-  width: 60rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @include media(medium) {
+    width: 60rem;
+  }
 }
 
 .wrapper {
   display: flex;
   gap: 2rem;
   justify-content: space-between;
-  padding-top: 4rem;
+  padding-top: 2rem;
+  flex-direction: column;
+
+  @include media(medium) {
+    flex-direction: row;
+    padding-top: 4rem;
+  }
 }
 
 .input {
@@ -33,18 +44,26 @@
 }
 
 .inputShort {
-  width: 48%;
+  width: 100%;
   font-size: 1.8rem;
   margin-bottom: 2rem;
   padding: 0.5rem;
   outline-color: $color-primary;
   border: 1px solid $color-border;
+  @include media(medium) {
+    width: 48%;
+  }
 }
 
 .priceInfo {
-  width: 30%;
   background-color: $color-secendary;
   padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  @include media(medium) {
+    width: 30%;
+    padding: 1rem 2rem;
+    margin-bottom: 0;
+  }
 }
 
 .info {

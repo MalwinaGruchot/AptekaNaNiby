@@ -57,6 +57,7 @@ export default function HeaderMenu() {
                           : `${styles.navLink}`
                       }
                       to={`/${url}`}
+                      onClick={handleClick}
                     >
                       {title}
                     </NavLink>
