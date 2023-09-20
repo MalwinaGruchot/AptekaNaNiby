@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import ProductCounter from "../ProductCounter/ProductCounter";
 import ButtonBuy from "../ButtonBuy/ButtonBuy";
 import { getProdukt } from "../../api/getProdukt";
+import { description, composition, use } from "../../assets/const";
 
 export default function ProductCard() {
   const { id } = useParams();
@@ -27,7 +28,7 @@ export default function ProductCard() {
 
   useEffect(() => {
     getProdukt(id, setProductItem);
-  }, []);
+  }, [id]);
 
   if (!productItem) return <h3>Wczytywanie...</h3>;
 
@@ -60,11 +61,11 @@ export default function ProductCard() {
             />
           </div>
           <h4 className={style.subtitle}>Opis:</h4>
-          <p className={style.text}>{productItem.description}</p>
+          <p className={style.text}>{description}</p>
           <h4 className={style.subtitle}>Skład:</h4>
-          <p className={style.text}>{productItem.composition}</p>
+          <p className={style.text}>{composition}</p>
           <h4 className={style.subtitle}>Stosowanie:</h4>
-          <p className={style.text}>{productItem.use}</p>
+          <p className={style.text}>{use}</p>
         </div>
       </div>
     </div>
