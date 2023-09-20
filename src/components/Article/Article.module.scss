@@ -3,7 +3,8 @@
 @import "../../styles/mixins";
 
 .article {
-  background-color: $color-section;
+  // background-color: $color-section;
+  background-color: red;
   padding-top: 1rem;
   @include media(small) {
     padding: 4rem;
