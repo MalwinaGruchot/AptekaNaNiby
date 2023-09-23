@@ -1,8 +1,8 @@
 import styles from "./ArticleLink.module.scss";
-import img1 from "../../assets/witd2.jpg";
-import img2 from "../../assets/kremart.jpg";
-import img3 from "../../assets/smoothie.jpg";
-const array = [img1, img2, img3];
+import img2 from "../../assets/witd2.jpg";
+import img0 from "../../assets/kremart.jpg";
+import img1 from "../../assets/smoothie.jpg";
+const array = [img0, img1, img2];
 
 export default function ArticleLink({ src, title }) {
   return (
