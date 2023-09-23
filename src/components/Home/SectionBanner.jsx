@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import "./SectionBanner.scss";
+import baner1 from "../../assets/sun.jpg";
+import baner2 from "../../assets/baby.jpg";
+import baner3 from "../../assets/capsules.jpg";
 
-const img = [
-  "src/assets/sun.jpg",
-  "src/assets/baby.jpg",
-  "src/assets/capsules.jpg",
-];
+const img = [baner1, baner2, baner3];
 
 export default function SectionBanner() {
   const [counter, setCounter] = useState(0);
@@ -29,7 +28,7 @@ export default function SectionBanner() {
     <section className="banner">
       <div className="container">
         <div className="banner__wrapper">
-          <img className="banner__img" src={import(img[counter])}></img>
+          <img className="banner__img" src={img[counter]}></img>
         </div>
       </div>
       <div className="container banner__container">
