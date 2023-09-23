@@ -4,6 +4,7 @@ import styles from "./Section.module.scss";
 import ProductLink from "../ProductLink/ProductLink";
 import { useEffect, useState } from "react";
 import { getProdukts } from "../../api/getProdukts";
+import baner from "../../assets/tydzien.jpg";
 
 export default function SectionWeeksProdukts() {
   const [productsList, setProductsList] = useState([]);
@@ -18,7 +19,7 @@ export default function SectionWeeksProdukts() {
         <h2 className={styles.title}>Produkty tygodnia</h2>
         <div className={styles.wrapper}>
           <InfoBaner
-            src={"../../src/assets/tydzien.jpg"}
+            src={baner}
             title={["Produkty", "tygodnia"]}
             backgroundColor={"darkorange"}
           />
