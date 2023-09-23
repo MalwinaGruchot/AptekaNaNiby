@@ -4,6 +4,7 @@ import styles from "./Section.module.scss";
 import { useEffect, useState } from "react";
 import { getArticles } from "../../api/getArticles";
 import ArticleLink from "../ArticleLink/ArticleLink";
+import baner from "../../assets/artykul.jpg";
 
 export default function SectionArticles() {
   const [articlesList, setArticlesList] = useState([]);
@@ -16,7 +17,7 @@ export default function SectionArticles() {
         <h2 className={styles.title}>Strefa porad</h2>
         <div className={styles.wrapper}>
           <InfoBaner
-            src={"../../src/assets/artykul.jpg"}
+            src={baner}
             title={["Wiedza", "w", "pigułce"]}
             backgroundColor={"coral"}
           />
@@ -27,7 +28,7 @@ export default function SectionArticles() {
               to={`/article/${article.id}`}
               style={{ height: 370 }}
             >
-              <ArticleLink src={article.url} title={article.name} />
+              <ArticleLink src={import(article.url)} title={article.name} />
             </NavLink>
           ))}
         </div>
