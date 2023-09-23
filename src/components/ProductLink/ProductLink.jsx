@@ -27,7 +27,11 @@ export default function ProductLink({ product }) {
   return (
     <div className={style.product}>
       <div className={style.imgWrapper}>
-        <img className={style.img} src={product.url} alt={product.name} />
+        <img
+          className={style.img}
+          src={import(product.url)}
+          alt={product.name}
+        />
       </div>
       <h3 className={style.title}>{product.name}</h3>
       <h3 className={style.price}>{product.price.toFixed(2)} zł.</h3>
