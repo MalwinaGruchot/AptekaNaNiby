@@ -29,7 +29,7 @@ export default function ProductLink({ product }) {
       <div className={style.imgWrapper}>
         <img
           className={style.img}
-          src={import(product.url)}
+          src={require("../../assets/products/balsam.jpg")}
           alt={product.name}
         />
       </div>
