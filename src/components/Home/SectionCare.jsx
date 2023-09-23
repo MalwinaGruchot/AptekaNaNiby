@@ -4,6 +4,7 @@ import styles from "./Section.module.scss";
 import ProductLink from "../ProductLink/ProductLink";
 import { useEffect, useState } from "react";
 import { getProdukts } from "../../api/getProdukts";
+import banner from "../../src/assets/essential.jpg";
 
 export default function SectionCare() {
   const [productsList, setProductsList] = useState([]);
@@ -21,7 +22,7 @@ export default function SectionCare() {
         <h2 className={styles.title}>Produkty do pielęgnacji</h2>
         <div className={styles.wrapper}>
           <InfoBaner
-            src={"../../src/assets/essential.jpg"}
+            src={banner}
             title={["", "", "Pielęgnacja"]}
             backgroundColor={"yellowgreen"}
           />
