@@ -28,7 +28,7 @@ export default function SectionArticles() {
               to={`/article/${article.id}`}
               style={{ height: 370 }}
             >
-              <ArticleLink src={import(article.url)} title={article.name} />
+              <ArticleLink src={article.url} title={article.name} />
             </NavLink>
           ))}
         </div>
