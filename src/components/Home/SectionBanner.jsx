@@ -29,7 +29,7 @@ export default function SectionBanner() {
     <section className="banner">
       <div className="container">
         <div className="banner__wrapper">
-          <img className="banner__img" src={img[counter]}></img>
+          <img className="banner__img" src={import(img[counter])}></img>
         </div>
       </div>
       <div className="container banner__container">
