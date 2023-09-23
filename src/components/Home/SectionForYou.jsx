@@ -4,6 +4,7 @@ import styles from "./Section.module.scss";
 import ProductLink from "../ProductLink/ProductLink";
 import { useEffect, useState } from "react";
 import { getProdukts } from "../../api/getProdukts";
+import baner from "../../assets/woman.jpg";
 
 export default function SectionForYou() {
   const [productsList, setProductsList] = useState([]);
@@ -21,7 +22,7 @@ export default function SectionForYou() {
         <h2 className={styles.title}>Wybrane dla Ciebie</h2>
         <div className={styles.wrapper}>
           <InfoBaner
-            src={"src/assets/woman.jpg"}
+            src={baner}
             title={["Wybrane", "dla", "Ciebie"]}
             backgroundColor={" rgb(255, 0, 115)"}
           />
