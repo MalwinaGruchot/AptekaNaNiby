@@ -4,7 +4,7 @@ import styles from "./Section.module.scss";
 import ProductLink from "../ProductLink/ProductLink";
 import { useEffect, useState } from "react";
 import { getProdukts } from "../../api/getProdukts";
-import banner from "../../src/assets/essential.jpg";
+import banner from "../../assets/essential.jpg";
 
 export default function SectionCare() {
   const [productsList, setProductsList] = useState([]);
