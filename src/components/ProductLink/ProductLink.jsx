@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import style from "./ProductLink.module.scss";
 import { useState, useEffect } from "react";
+import imgList from "../../api/importImg";
 
 import ProductCounter from "../ProductCounter/ProductCounter";
 import ButtonBuy from "../ButtonBuy/ButtonBuy";
@@ -26,7 +27,11 @@ export default function ProductLink({ product }) {
   return (
     <div className={style.product}>
       <div className={style.imgWrapper}>
-        <img className={style.img} src={product.url} alt={product.name} />
+        <img
+          className={style.img}
+          src={imgList[product.url]}
+          alt={product.name}
+        />
       </div>
       <h3 className={style.title}>{product.name}</h3>
       <h3 className={style.price}>{product.price.toFixed(2)} zł.</h3>
