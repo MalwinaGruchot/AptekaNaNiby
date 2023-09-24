@@ -5,6 +5,7 @@ import ProductCounter from "../ProductCounter/ProductCounter";
 import ButtonBuy from "../ButtonBuy/ButtonBuy";
 import { getProdukt } from "../../api/getProdukt";
 import { description, composition, use } from "../../assets/const";
+import imgList from "../../api/importImg";
 
 export default function ProductCard() {
   const { id } = useParams();
@@ -38,7 +39,7 @@ export default function ProductCard() {
         <div className={style.column}>
           <img
             className={style.img}
-            src={productItem.url}
+            src={imgList[productItem.url]}
             alt={productItem.name}
           />
         </div>
